@@ -1,5 +1,3 @@
 {
-  "rewrites": [
-    { "source": "/swag", "destination": "/swag.html" }
-  ]
+  "cleanUrls": true
 }
