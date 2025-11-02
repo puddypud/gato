@@ -1,0 +1,54 @@
+/* Basic reset to make it look the same everywhere */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh; /* Make the page at least as tall as the screen */
+    background-color: #1a1a1a; /* A nice dark background */
+    
+    /* This centers the container on the page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* This is the main container for the GIFs */
+.gif-container {
+    display: flex;
+    padding: 20px; /* Some spacing from the edge */
+    gap: 20px; /* This creates space *between* the GIFs */
+    width: 100%;
+    max-width: 1200px; /* A max width for very large screens */
+    box-sizing: border-box; /* Includes padding in the width calculation */
+
+    /*
+     * MOBILE-FIRST: By default, stack them in a column.
+     * This is what phones will see.
+    */
+    flex-direction: column;
+}
+
+.gif-item {
+    /* Each item will be flexible */
+    flex: 1; 
+}
+
+/* This makes the actual image responsive */
+.gif-item img {
+    width: 100%; /* Make the image fill its container */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Removes any weird bottom spacing */
+    border-radius: 8px; /* A slight curve on the corners */
+}
+
+
+/*
+ * DESKTOP: When the screen is 768px wide or more (tablets/computers),
+ * this @media query kicks in and overrides the mobile style.
+*/
+@media (min-width: 768px) {
+    .gif-container {
+        /* Change the direction to a row */
+        flex-direction: row;
+    }
+}
