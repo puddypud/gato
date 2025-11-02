@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swag</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="gif-container">
+        
+        <div class="gif-item">
+            <img src="https://tenor.com/view/huzz-seal-hi-sealutation-gif-14368511881377374735">
+        </div>
+        
+        <div class="gif-item">
+            <img src="https://tenor.com/view/chiikawa-travis-scott-fein-rap-hip-hop-gif-10297621246310388992">
+        </div>
+        
+        <div class="gif-item">
+            <img src="https://tenor.com/view/hop-on-fortnite-meme-blackman-sexy-blackmen-gif-12603215917694820243">
+        </div>
+
+    </div>
+
+</body>
+</html>
