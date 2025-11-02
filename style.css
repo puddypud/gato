@@ -4,7 +4,7 @@ body, html {
     padding: 0;
     width: 100%;
     min-height: 100vh; /* Make the page at least as tall as the screen */
-    background-color: #1a1a1a; /* A nice dark background */
+    background-color: #89CFF0; /* A nice dark background */
     
     /* This centers the container on the page */
     display: flex;
